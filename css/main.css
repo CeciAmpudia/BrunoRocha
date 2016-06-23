@@ -1,0 +1,224 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+ul {
+	list-style: none;
+}
+.LetraB {
+	color: #F9A91A;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-inverse {
+    background-color: #0A0619;
+    padding: 1%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 0% 3%;
+ }
+ .navbar-inverse .navbar-nav>li>a:hover {
+    color: #FFFFFF;
+    background-color: #06005C;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #018B41;
+}
+
+/*Diseño de Hamburguesa*/
+ .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:#018B41;
+}
+/*CONTACTO*/
+.MtopBio {
+    margin-top: 8%;
+    /*padding: 0% 5%;*/
+    border-left: border: 1px solid #F9A91A;
+}
+form {
+    padding: 3%;
+    background-color: rgba(158, 158, 158, 0.12);
+    margin: 2% 0% 2% 0%;
+    border-radius: 10px;
+}
+hr {
+    border: 1px solid #F9A91A;
+}
+.DisenoB {
+	background-color: #06005C;
+	color: #FFFFFF;
+	width: 100%;
+}
+.DisenoB:hover {
+	background-color: #018B41;
+	color: #FFFFFF;
+}
+.ImgBruno {
+	width: 30%;
+    padding: 2% 0% 4% 0%;
+}
+.TextContac {
+    /*padding-bottom: 6%;*/
+}
+h3 {
+    padding: 3% 0%;
+}
+/*Diseño de Footer*/
+footer {
+    padding: 1% 0%;
+	background-color: #0A0619;
+    color: #FFFFFF;
+    margin-top: 3%;
+    width: 100%;
+}
+.IcoFooter {
+	margin: 0px 1%;
+	color: #018B41;
+}
+.IcoFooter:hover {
+	color: #06005C;
+}
+.MFooter {
+    margin-top: 40%;
+}
+/*----------------Ceci----------------*/
+a:hover {
+    color: white;
+}
+a {
+    text-decoration: none !important;
+}
+
+.col-md-12, .col-xs-12 {
+    height: 100%;
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+}
+
+.catalogos {
+    width: 2700px;
+    letter-spacing:-1px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+.catalogo {
+    margin:0px;
+    bottom:0px;
+    width:1350px;
+    float:left;
+    height:100%;
+    color: white;
+}
+
+h2 {
+    font-size: 5em;
+    text-align: center;
+    border: 5px solid;
+    padding: 3%;
+}
+#catalogo {
+    padding: 18.5% 30%;
+    color: transparent;
+    height: 100%;
+}
+#catalogo:hover {
+    color: white;
+}
+
+/* CATALOGOS...Aportación de Cecy */
+#regata {
+    background-image: url("../fotos/regata/regata3.jpg");
+    background-size: cover;
+    background-position-y: 80%;
+}
+#regata #catalogo:hover {
+    background: rgba(28,16,73,0.60);
+}
+
+#felicidade {
+    background-image: url("../fotos/felicidade.jpg");
+    background-size: cover;
+    background-position-y: 60%; 
+}
+#felicidade #catalogo:hover {
+    background: rgba(1,139,65,0.60);
+}
+
+#navegador {
+    background-image: url("../fotos/navegador.jpg");
+    background-size: cover;
+    background-position-y: 40%; 
+}
+#navegador #catalogo:hover {
+    background: rgba(3,91,36,0.60);
+}
+
+#pescaria {
+    
+    background-image: url("../fotos/pescaria/pescaria.jpg");
+    background-size: cover;
+    background-position-y: 50%; 
+}
+#pescaria #catalogo:hover {
+    background: rgba(214,180,4,0.60);
+}
+
+/* MEDIA */
+
+@media (max-width: 768px){
+    .catalogos {
+        width: 870px;
+        margin-top: 10%;
+    }
+    #catalogo {
+        height: 100%;
+        padding: 30% 10%;   
+    }
+    .catalogo {
+        width: 435px;
+        
+    }
+    h2 {
+        font-size: 3em;
+    }
+    #felicidade {
+        background-position-x: 50%;
+    }
+    #pescaria {
+        background-position-x: 20%; 
+    }
+    #navegador {
+        background-position-x: 55%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .catalogos {
+        width: 1538px;
+        margin-top: 7%;
+    } 
+    .catalogo {
+        width: 769px;
+    }
+    #catalogo {
+        padding: 20% 15%;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    #felicidade {
+        background-position: 55%;
+    }
+    #pescaria {
+        background-position-x: 40%; 
+    }
+    #navegador {
+        background-position-x: 55%;
+    }
+}
+
